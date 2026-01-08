@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createPost, feed } from "../controllers/user.controller.js";
+import { createPost, feed } from "../controllers/post.controller.js";
 import { authenticate } from "../middleware/auth.middleware.js";
 const userRouter = Router()
 
